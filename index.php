@@ -63,16 +63,46 @@ $faqs = [
 
   <head>
     <meta charset="utf-8">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&display=swap" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <title>Google FAQs</title>
   </head>
-  
+
   <body>
 
     <!-- Header -->
-    <header>
+    <header class="flex-col">
+      <!-- Logo Container -->
+      <div class="logo flex-row">
+        <a href="#"><img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_74x24dp.png " alt="Google Logo"></a>
+        <a href="#"> Privacy e termini</a>
+      </div>
+      <!-- End Logo Container -->
 
+      <!-- Navbar -->
+      <nav class="flex-row">
+
+        <!-- Navigation Section -->
+        <div class="navigation">
+          <ul class="flex-row">
+            <li> <a href="#"> Introduzione </a> </li>
+            <li> <a href="#"> Norme sulla privacy </a> </li>
+            <li> <a href="#"> Termini di servizio </a> </li>
+            <li> <a href="#"> Tecnologie </a> </li>
+            <li class="selected"> <a href="#"> Domande frequenti </a> </li>
+          </ul>
+        </div>
+        <!-- End Navigation Section -->
+
+        <!-- User Section -->
+        <div class="user">
+          <span class="circle">V</span>
+          <span class="mail"> vivagliarraymultidimensionali@gmail.com</span>
+        </div>
+        <!-- End User Section -->
+
+      </nav>
+      <!-- End Navbar -->
     </header>
 
     <!-- Main -->
@@ -93,7 +123,28 @@ $faqs = [
 
     <!-- Footer -->
     <footer>
+      <div class="container flex-row">
 
+        <!-- Sitemap container -->
+        <div class="sitemap">
+          <ul class="flex-row">
+            <li> <a href="#"> Google </a> </li>
+            <li> <a href="#"> Tutto su Google </a> </li>
+            <li> <a href="#"> Privacy </a> </li>
+            <li> <a href="#"> Termini </a> </li>
+          </ul>
+        </div>
+        <!-- End Sitemap container -->
+
+        <!-- Language Selector Container -->
+        <div class="lang-select">
+          <select class="lang" name="language">
+            <option value="IT">Italiano</option>
+          </select>
+        </div>
+        <!-- End Language Selector Container -->
+
+      </div>
     </footer>
 
   </body>
