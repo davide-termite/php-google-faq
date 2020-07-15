@@ -1,0 +1,21 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* End Reset */
+
+body{
+  background-color: red;
+  /* font-family: 'Montserrat', sans-serif; */
+}
+
+/* Header */
+/* End Header */
+
+/* Main */
+/* End Main */
+
+/* Footer */
+/* End Footer */
